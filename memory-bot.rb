@@ -1,9 +1,9 @@
 
 #!/usr/bin/env ruby
 require 'telegram/bot'
-
+require './token_module.rb'
 #variables
-token='272157126:AAEqB9XXBz3aKR9x3GxRs9yqB1Nx8o1SFqs'
+token=TokenValue::TOKEN
 
 Telegram::Bot::Client.run(token) do |bot|
   bot.listen do |message|
