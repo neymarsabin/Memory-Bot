@@ -1,4 +1,0 @@
-module TokenValue
-  TOKEN='272157126:AAEqB9XXBz3aKR9x3GxRs9yqB1Nx8o1SFqs'
-  TOKENTMDB='a027731eb6deb9083ca60cd49301c56b'
-end 
